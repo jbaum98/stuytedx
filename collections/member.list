@@ -2,11 +2,9 @@
 {.repeated section items}
 
 <li>
-    <div class="thumbnail main-image">
-        <img src="{assetUrl}">
-    </div>
+    <img {@|image-meta}>
     <h3>{title}</h3>
-    <p>{@}</p>
+    <p>{squarespace-post-entry}</p>
     <div style="clear: left;">
     </div>
 </li>
