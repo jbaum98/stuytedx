@@ -1,0 +1,15 @@
+<ul class="author-list">
+{.repeated section items}
+
+<li>
+    <div class="thumbnail main-image">
+        <img src="{assetUrl}">
+    </div>
+    <h3>{title}</h3>
+    <p>{@}</p>
+    <div style="clear: left;">
+    </div>
+</li>
+
+{.end}
+</ul>
