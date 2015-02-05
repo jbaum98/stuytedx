@@ -4,7 +4,7 @@
 <li>
     <img {@|image-meta}>
     <h3>{title}</h3>
-    <p>{squarespace-post-entry}</p>
+    {.section body}<p class="body entry-content">{@}</p>{.end}
     <div style="clear: left;">
     </div>
 </li>
