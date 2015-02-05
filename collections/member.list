@@ -8,6 +8,9 @@
     <div style="clear: left;">
     </div>
 </li>
+{.alternates with}
+
+<hr>
 
 {.end}
 </ul>
