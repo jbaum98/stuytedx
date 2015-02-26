@@ -2,7 +2,9 @@
 {.repeated section items}
 
 <li>
-    <img {@|image-meta}>
+    <div class="thumbnail">
+        <img {@|image-meta}>
+    </div>
     <h3>{title}</h3>
     {.section body}<p class="body entry-content">{@}</p>{.end}
     <div style="clear: left;">
