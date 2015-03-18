@@ -507,6 +507,7 @@
     <!--POST BODY-->
           
       {.section body}<div class="body entry-content">{@}</div>{.end}
+      {.section video}<div class="video">{video}</div>{.end}
             
     <!--POST FOOTER-->
         
