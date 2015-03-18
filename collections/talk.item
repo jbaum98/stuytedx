@@ -337,7 +337,7 @@
     </div> 
     {.end}
 
-    <div class="post">
+    <div class="talk">
 
       <!--POST HEADER-->
 
@@ -362,7 +362,6 @@
 
       	<span class="date"><a href="{fullUrl}"><i class="icon-calendar"></i><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>          
         {.section author}<span class="author"><span class="delimiter">/</span><a href="{collection.fullUrl}?author={id}" rel="author"><i class="icon-user"></i>{displayName}</a></span>{.end}
-        {.passthrough?}{.or}{.section sourceUrl}<span class="source"><span class="delimiter">/</span><a href="{sourceUrl}" target="_blank"><i class="icon-share"></i>Source</a></span>{.end}{.end}
         {.section tags}<div class="tags"><i class="icon-tag"></i>{.repeated section @}<a href="{collection.fullUrl}?tag={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
         {.section categories}<div class="categories"><i class="icon-bookmark"></i>{.repeated section @}<a href="{collection.fullUrl}?category={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
         
@@ -390,9 +389,9 @@
   <div class="content-wrapper">
     <ul>
       {.section prevItem}<li class="prev"><a href="{fullUrl}" title="{title}" id="prevLink"><i class="icon-chevron-left"></i>Newer</a></li>
-      {.or}<li class="prev"><span title="Viewing the latest post"><i class="icon-chevron-left"></i>Newer</span></li>{.end}
+      {.or}<li class="prev"><span title="Viewing the latest talk"><i class="icon-chevron-left"></i>Newer</span></li>{.end}
       {.section nextItem}<li class="next"><a href="{fullUrl}" title="{title}" id="nextLink">Older<i class="icon-chevron-right"></i></a></li>
-      {.or}<li class="next"><span title="Viewing the oldest post">Older<i class="icon-chevron-right"></i></span></li>{.end}
+      {.or}<li class="next"><span title="Viewing the oldest talk">Older<i class="icon-chevron-right"></i></span></li>{.end}
     </ul>
   </div>
 </nav>
