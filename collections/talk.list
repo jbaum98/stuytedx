@@ -1,12 +1,18 @@
 <style>
 
+.effects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch
+    align-content: space-between;
+}
+
 .effects .img {
     position: relative;
-    float: left;
-    margin-bottom: 5px;
     overflow: hidden;
-    width: 250px;
-    height: 188px;
+    width: 310px;
+    height: 227px;
 }
 
 .effects .img img {
