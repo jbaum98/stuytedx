@@ -36,8 +36,12 @@
     opacity: 1;
 }
 
-.overlay * {
+.overlay > h4 {
     color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 </style>
@@ -55,12 +59,6 @@
         {.end}
         <div class="overlay">
             <h4>{title}</h4>
-
-            {.excerpt?}
-            <div class="excerpt">
-                {excerpt}
-            </div>
-            {.end}
         </div>
 
     </div>
