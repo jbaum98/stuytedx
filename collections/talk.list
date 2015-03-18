@@ -4,15 +4,15 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: stretch
+    align-items: center
     align-content: space-between;
 }
 
 .effects .img {
     position: relative;
     overflow: hidden;
-    width: 310px;
-    height: 227px;
+    width: 300px;
+    height: 225px;
 }
 
 .effects .img img {
