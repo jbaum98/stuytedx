@@ -1,0 +1,25 @@
+<ul class="talk-list">
+{.repeated section items}
+<script>console.log({@|json-pretty})</script>
+
+<li>
+    <h3>{title}</h3>
+
+    {.main-image?}
+    <div class="thumbnail">
+        <img {@|image-meta}>
+    </div>
+    {.end}
+
+    {.excerpt?}
+    <div class="excerpt">
+        <p> {@} </p>
+    </div>
+    {.end}
+</li>
+{.alternates with}
+
+<hr>
+
+{.end}
+</ul>
