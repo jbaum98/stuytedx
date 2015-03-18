@@ -7,7 +7,7 @@
         <img {@|image-meta}>
     </div>
     <h3>{title}</h3>
-    {.section body}<p class="body entry-content">{@}</p>{.end}
+    {.section body}{@}{.end}
     <div style="clear: left;">
     </div>
 </li>

@@ -13,9 +13,10 @@
 
     {.excerpt?}
     <div class="excerpt">
-        <p> {@} </p>
+        {@ | excerpt}
     </div>
     {.end}
+
 </li>
 {.alternates with}
 
