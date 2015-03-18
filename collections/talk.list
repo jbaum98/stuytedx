@@ -65,9 +65,9 @@
         {.or}
         {# some default}
         {.end}
-        <div class="overlay">
+        <a href="{fullUrl}" class="overlay">
             <h4>{title}</h4>
-        </div>
+        </a>
 
     </div>
     {.end}
