@@ -52,7 +52,7 @@
     {.repeated section items}
     <script>console.log({@|json-pretty})</script>
 
-    <div class="img" >
+    <div class="img" class="content-fill">
         {.main-image?}
         <img {@|image-meta}>
         {.or}
