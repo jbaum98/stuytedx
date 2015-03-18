@@ -13,7 +13,7 @@
 
     {.excerpt?}
     <div class="excerpt">
-        {@ | excerpt}
+        {@|json-pretty}
     </div>
     {.end}
 
