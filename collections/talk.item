@@ -341,7 +341,7 @@
     {.section promotedBlock}
     <div class="special-content">
       {@}
-    </div> 
+    </div>
     {.end}
 
     <div class="talk">
@@ -371,7 +371,7 @@
 
       <footer class="article-meta">
 
-       <span class="date"><a href="{fullUrl}"><i class="icon-calendar"></i><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>          
+       <span class="date"><a href="{fullUrl}"><i class="icon-calendar"></i><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>
        {.section author}<span class="author"><span class="delimiter">/</span><a href="{collection.fullUrl}?author={id}" rel="author"><i class="icon-user"></i>{displayName}</a></span>{.end}
        {.section tags}<div class="tags"><i class="icon-tag"></i>{.repeated section @}<a href="{collection.fullUrl}?tag={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
        {.section categories}<div class="categories"><i class="icon-bookmark"></i>{.repeated section @}<a href="{collection.fullUrl}?category={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
