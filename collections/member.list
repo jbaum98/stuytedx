@@ -1,5 +1,5 @@
 <script>
-.team-name {
+.team-title {
     margin: 0;
 }
 </script>
@@ -12,7 +12,7 @@
         <img {@|image-meta}>
     </div>
     <h3 class="team-name">{title}</h3>
-    {.section tags}<h5 class="team-title">{.repeated section @}{@}{.alternates with}, {.end}</h5>{.end}
+    {.section tags}<h4 class="team-title">{.repeated section @}{@}{.alternates with}, {.end}</h4>{.end}
     {.section body}{@}{.end}
     <div style="clear: left;">
     </div>
