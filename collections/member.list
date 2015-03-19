@@ -1,3 +1,8 @@
+<script>
+.team-name {
+    margin: 0;
+}
+</script>
 <ul class="author-list">
 {.repeated section items}
 <script>console.log({@|json-pretty})</script>
@@ -6,7 +11,8 @@
     <div class="thumbnail">
         <img {@|image-meta}>
     </div>
-    <h3>{title}</h3>
+    <h3 class="team-name">{title}</h3>
+    {.section tags}<h5 class="team-title">{.repeated section @}{@}{.alternates with}, {.end}</h5>{.end}
     {.section body}{@}{.end}
     <div style="clear: left;">
     </div>
