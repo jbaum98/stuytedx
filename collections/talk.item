@@ -258,8 +258,8 @@
     display: block;
     margin-bottom: 28px;
   }
-  .collection-type-talk.blog-meta-data-split footer .categories, .collection-type-talk.blog-meta-data-split footer .date, .collection-type-talk.blog-meta-data-split footer .author, .collection-type-talk.blog-meta-data-split footer .source .delimiter {
-    display: none;
+  .collection-type-talk.blog-meta-data-split footer .categories {
+    display: block;
   }
   .collection-type-talk .comments-wrapper {
     max-width: 750px;
@@ -371,8 +371,6 @@
 
       <footer class="article-meta">
 
-       <span class="date"><a href="{fullUrl}"><i class="icon-calendar"></i><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>
-       {.section author}<span class="author"><span class="delimiter">/</span><a href="{collection.fullUrl}?author={id}" rel="author"><i class="icon-user"></i>{displayName}</a></span>{.end}
        {.section tags}<div class="tags"><i class="icon-tag"></i>{.repeated section @}<a href="{collection.fullUrl}?tag={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
        {.section categories}<div class="categories"><i class="icon-bookmark"></i>{.repeated section @}<a href="{collection.fullUrl}?category={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
 
