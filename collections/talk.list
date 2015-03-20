@@ -43,6 +43,7 @@
     opacity: 0;
     -webkit-backface-visibility: hidden; /* annoying jiggle */
     padding: 5px;
+    box-sizing: border-box;
 }
 
 
