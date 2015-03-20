@@ -42,6 +42,7 @@
     height: 100%;
     opacity: 0;
     -webkit-backface-visibility: hidden; /* annoying jiggle */
+    padding: 5px;
 }
 
 
