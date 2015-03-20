@@ -49,7 +49,7 @@
     opacity: 1;
 }
 
-.overlay > h4, .overlay > h6 {
+.overlay > h4, .overlay > h5 {
     color: white;
     text-align: center;
     position: relative;
@@ -74,7 +74,7 @@
         <a href="{fullUrl}" class="overlay">
             <h4 class="talk-title">{title}</h4>
             {.section author}
-                <h6 class="talk-author">{displayName}</h4>
+                <h5 class="talk-author">{displayName}</h4>
             {.end}
         </a>
 
