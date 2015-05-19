@@ -350,12 +350,6 @@
 
       <header>
         {.if title}<h1 class="entry-title" data-content-field="title">{.passthrough?}<a href="{sourceUrl}">{title} <span>&rarr;</span></a>{.or}<a href="{fullUrl}">{title}</a>{.end}</h1>{.end}
-        <div class="article-meta-top">
-          {.section location}<div class="location">{.if addressTitle}<a href="//maps.google.com/maps?q={mapLat},{mapLng}" target="_blank" title="View map in new window"><i class="icon-map-marker"></i>{addressTitle}</a>{.end}</div>{.end}
-          <span class="date"><a href="{fullUrl}"><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a></span>
-          {.section author}<span class="author"><a href="{collection.fullUrl}?author={id}" rel="author">by {displayName}</a></span>{.end}
-          {.section categories}<span class="categories">in {.repeated section @}<a href="{collection.fullUrl}?category={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</span>{.end}
-        </div>
       </header>
 
       <!--POST BODY-->

@@ -75,9 +75,6 @@
         {.end}
         <a href="{fullUrl}" class="overlay">
             <h4 class="talk-title">{title}</h4>
-            {.section author}
-                <h5 class="talk-author">{displayName}</h4>
-            {.end}
         </a>
 
     </div>
