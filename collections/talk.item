@@ -330,7 +330,7 @@
   margin: auto;
 }
 </style>
-<script>console.log({@|json-pretty})</script>
+<!--<script>console.log({@|json-pretty})</script>-->
 {.section item}
 
 <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
