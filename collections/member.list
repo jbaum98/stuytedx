@@ -1,6 +1,6 @@
 <ul class="author-list">
 {.repeated section items}
-<script>console.log({@|json-pretty})</script>
+<!--<script>console.log({@|json-pretty})</script>-->
 
 <li>
     <div class="thumbnail">

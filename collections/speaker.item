@@ -1,23 +1,5 @@
-<style>
-  .collection-type-speaker article header {
-    text-align: center;
-  }
-
-  .speaker-image {
-    float: left;
-    margin-right: 20px;
-    width: 30%;
-  }
-  .speaker-image img {
-    width: 100%;
-  }
-  .speaker-image .caption {
-    display: inline;
-    font-size: 12px;
-  }
-</style>
 {.section item}
-<script>console.log({@|json-pretty})</script>
+<!--<script>console.log({@|json-pretty})</script>-->
 
 <article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
 
