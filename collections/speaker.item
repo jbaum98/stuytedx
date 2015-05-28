@@ -46,6 +46,7 @@
             {.section tags}
               <div class="caption"> {.repeated section @}{@}{.alternates with}, {.end}</div>
             {.end}
+          </div>
         {.or}
           {# some default}
         {.end}
