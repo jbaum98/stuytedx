@@ -4,12 +4,16 @@
   }
 
   .speaker-image {
-    width: 30%;
-    display: inline;
     float: left;
     margin-right: 20px;
+    width: 30%;
   }
-  .speaker-caption {
+  .speaker-image img {
+    width: 100%;
+  }
+  .speaker-image .caption {
+    display: inline;
+    font-size: 12px;
   }
 </style>
 {.section item}
@@ -37,12 +41,13 @@
       <!--POST BODY-->
       <div class="body entry-content">
         {.main-image?}
-        <img class="speaker-image"{@|image-meta}>
-        {.section tags}
-          <div class="speaker-caption"> {.repeated section @}{@}{.alternates with}, {.end}</div>
-        {.end}
+          <div class="speaker-image">
+            <img {@|image-meta}>
+            {.section tags}
+              <div class="caption"> {.repeated section @}{@}{.alternates with}, {.end}</div>
+            {.end}
         {.or}
-        {# some default}
+          {# some default}
         {.end}
 
         {.section body}
