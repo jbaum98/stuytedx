@@ -353,14 +353,14 @@
       </header>
 
       <!--POST BODY-->
+      {.main-image?}
+      <img {@|image-meta}>
+      {.or}
+      {# some default}
+      {.end}
 
       {.section body}
       <div class="body entry-content">
-        {.main-image?}
-        <img {@|image-meta}>
-        {.or}
-        {# some default}
-        {.end}
         {@}
       </div>
       {.end}
