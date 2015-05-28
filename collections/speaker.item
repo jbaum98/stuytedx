@@ -7,6 +7,9 @@
     width: 30%;
     display: inline;
     float: left;
+    margin-right: 20px;
+  }
+  .speaker-caption {
   }
 </style>
 {.section item}
@@ -35,6 +38,9 @@
       <div class="body entry-content">
         {.main-image?}
         <img class="speaker-image"{@|image-meta}>
+        {.section tags}
+          <div class="speaker-caption"> {.repeated section @}{@}{.alternates with}, {.end}</div>
+        {.end}
         {.or}
         {# some default}
         {.end}
@@ -48,7 +54,6 @@
 
       <footer class="article-meta">
 
-       {.section tags}<div class="tags"><i class="icon-tag"></i>{.repeated section @}<a href="{collection.fullUrl}?tag={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
        {.section categories}<div class="categories"><i class="icon-bookmark"></i>{.repeated section @}<a href="{collection.fullUrl}?category={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}</div>{.end}
 
        <div class="shareLoveButtons">
